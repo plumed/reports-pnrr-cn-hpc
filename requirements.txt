@@ -1,3 +1,3 @@
 matplotlib
 numpy
-plumed-bench-pp
+plumed-bench-pp==0.0.8
