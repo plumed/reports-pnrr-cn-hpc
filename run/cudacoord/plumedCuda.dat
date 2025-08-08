@@ -1,0 +1,6 @@
+LOAD FILE=@cudaSO@
+
+cv: CUDACOORDINATION GROUPA=@mdatoms  R_0=1 NOPBC
+
+PRINT ARG=* FILE=@natoms@cudaDouble FLUSH STRIDE=1
+
